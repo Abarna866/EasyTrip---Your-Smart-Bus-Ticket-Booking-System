@@ -16,14 +16,24 @@ A console-based Bus Ticket Booking System developed using the C programming lang
 👤 Passenger Management
 
 📋 View Booking Details
+
 🧩 Modular and menu-driven program design
+
 ⚠️ Input validation and error handling
+
 💾 Data handling using data structures (arrays & linked lists)
+
 🛠️ Technologies Used
+
 Programming Language: C
+
 Concepts:
+
 Arrays
+
 Linked Lists
+
 Structures
+
 File Handling (optional)
 Functions & Modular Programming
