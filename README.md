@@ -5,11 +5,16 @@ A console-based Bus Ticket Booking System developed using the C programming lang
 
 📌 Features:
 
-🔐 User Authentication (Login system)
+🔐 User Authentication (Login system) 
+
 🎟️ Ticket Booking
+
 ❌ Ticket Cancellation
+
 🚌 Check Bus Status (Available seats, route, fare)
+
 👤 Passenger Management
+
 📋 View Booking Details
 🧩 Modular and menu-driven program design
 ⚠️ Input validation and error handling
