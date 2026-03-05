@@ -207,6 +207,7 @@ void cancelTicket(struct Bus buses[], int numBuses, struct Passenger passengers[
     }
 }
 
+
 void checkBusStatus(struct Bus buses[], int numBuses) {
     for (int i = 0; i < numBuses; i++) {
         printf("\nBus Number: %d", buses[i].busNumber);
@@ -217,3 +218,23 @@ void checkBusStatus(struct Bus buses[], int numBuses) {
         printf("\nFare: %.2f\n", buses[i].fare);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
