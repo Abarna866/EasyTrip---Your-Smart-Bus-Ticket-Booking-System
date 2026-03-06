@@ -35,5 +35,5 @@ Linked Lists
 
 Structures
 
-File Handling (optional)
+File Handling
 Functions & Modular Programming
