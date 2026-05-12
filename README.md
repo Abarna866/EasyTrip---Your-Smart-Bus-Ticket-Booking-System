@@ -1,39 +1,212 @@
-# EasyTrip---Your-Smart-Bus-Ticket-Booking-System
-A menu-driven Bus Ticket Booking System built in C using core data structures (arrays, linked lists, and queues). The application supports user authentication, ticket booking and cancellation, bus status checking, and passenger data management with efficient memory handling and modular programming principles.
+# ✈️ Easy Trip - Bus Ticket Booking System
 
-A console-based Bus Ticket Booking System developed using the C programming language and fundamental Data Structures such as arrays and linked lists. This project provides an efficient and user-friendly way to manage bus reservations, cancellations, and passenger details through a menu-driven interface.
+> A Java-based Bus Ticket Booking System that allows users to search buses, book tickets, manage reservations, and generate booking details through a simple and user-friendly interface.
 
-📌 Features:
+---
 
-🔐 User Authentication (Login system) 
+## 🚀 Features
 
-🎟️ Ticket Booking
+* 🔍 Search available buses by source and destination
+* 🪑 Seat selection and booking
+* 👤 User registration and login system
+* 🎫 Ticket generation with booking details
+* 💳 Fare calculation and payment simulation
+* 📅 Journey date management
+* ❌ Ticket cancellation feature
+* 🛠 Admin panel for managing buses and schedules
+* 📊 Booking history and customer details
+* 💾 Database connectivity using MySQL
 
-❌ Ticket Cancellation
+---
 
-🚌 Check Bus Status (Available seats, route, fare)
+## 🏗️ Tech Stack
 
-👤 Passenger Management
+### Frontend
 
-📋 View Booking Details
+* Java Swing / JavaFX
 
-🧩 Modular and menu-driven program design
+### Backend
 
-⚠️ Input validation and error handling
+* Java
 
-💾 Data handling using data structures (arrays & linked lists)
+### Database
 
-🛠️ Technologies Used
+* MySQL
 
-Programming Language: C
+### Tools Used
 
-Concepts:
+* NetBeans / Eclipse / IntelliJ IDEA
+* JDBC Driver
 
-Arrays
+---
 
-Linked Lists
+## 📂 Project Modules
 
-Structures
+### 1. User Module
 
-File Handling
-Functions & Modular Programming
+* User Registration
+* User Login
+* Search Bus
+* Book Ticket
+* View Booking History
+
+### 2. Admin Module
+
+* Add Bus Details
+* Update Bus Timings
+* Manage Routes
+* View Bookings
+
+### 3. Ticket Module
+
+* Seat Allocation
+* Ticket Generation
+* Cancellation Process
+
+---
+
+## 🖥️ System Architecture
+
+```text
++-------------------+
+|   User Interface  |
++-------------------+
+          |
+          v
++-------------------+
+|   Java Backend    |
+| (Business Logic)  |
++-------------------+
+          |
+          v
++-------------------+
+|     MySQL DB      |
++-------------------+
+```
+
+---
+
+## 📸 Screenshots
+
+### Login Page
+
+* User authentication screen
+
+### Bus Search Page
+
+* Search buses based on location and date
+
+### Seat Booking Page
+
+* Select seats and confirm booking
+
+### Ticket Page
+
+* Displays booking confirmation and ticket details
+
+---
+
+## ⚙️ Installation Steps
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Easy-Trip-Bus-Ticket-Booking-System.git
+```
+
+### 2️⃣ Open Project
+
+* Open the project in NetBeans / Eclipse / IntelliJ
+
+### 3️⃣ Setup Database
+
+Create a MySQL database:
+
+```sql
+CREATE DATABASE easytrip;
+```
+
+Import the SQL file:
+
+```sql
+easytrip.sql
+```
+
+### 4️⃣ Configure JDBC
+
+Update database credentials inside:
+
+```java
+DBConnection.java
+```
+
+Example:
+
+```java
+String url = "jdbc:mysql://localhost:3306/easytrip";
+String username = "root";
+String password = "your_password";
+```
+
+### 5️⃣ Run the Project
+
+* Run the `Main.java` file
+
+---
+
+## 📊 Database Tables
+
+* Users
+* Buses
+* Routes
+* Bookings
+* Payments
+* Seats
+
+---
+
+## 🔐 Future Enhancements
+
+* Online payment gateway integration
+* QR Code based tickets
+* Live bus tracking
+* Mobile application support
+* AI-based seat recommendation
+* Email/SMS notifications
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to simplify the bus ticket booking process digitally and reduce manual reservation work by providing an efficient and automated booking system.
+
+---
+
+## 👨‍💻 Team Members
+
+* Abar D
+* Akshaya
+* Sanjay
+* FUTURE FORGE Team
+
+---
+
+## 📜 License
+
+This project is developed for educational and learning purposes.
+
+---
+
+## 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+GitHub README files usually include project overview, features, installation steps, architecture, and usage instructions so that recruiters or developers can quickly understand the project.
