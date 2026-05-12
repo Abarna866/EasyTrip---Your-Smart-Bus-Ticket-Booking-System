@@ -193,5 +193,7 @@ B.Tech (Artificial Intelligence and Data Science)
 Passionate about Software Development, AI Projects, and Problem Solving.
 
 Connect
+
 GitHub: https://github.com/Abarna866
+
 Email: abarnad862006@gmail.com
