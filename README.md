@@ -189,7 +189,9 @@ Contributions and suggestions are welcome.
 ✍️ Author
 
 Abarna D,
+
 B.Tech (Artificial Intelligence and Data Science)
+
 Passionate about Software Development, AI Projects, and Problem Solving.
 
 Connect
