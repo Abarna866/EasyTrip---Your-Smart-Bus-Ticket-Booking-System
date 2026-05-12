@@ -1,42 +1,41 @@
-# ✈️ Easy Trip - Bus Ticket Booking System
+# 🚌 Easy Trip - Bus Ticket Booking System (Using C)
 
-> A Java-based Bus Ticket Booking System that allows users to search buses, book tickets, manage reservations, and generate booking details through a simple and user-friendly interface.
+> A console-based Bus Ticket Booking System developed using the C programming language. This project helps users book bus tickets, view available buses, cancel bookings, and manage passenger details through a simple terminal interface.
 
 ---
 
 ## 🚀 Features
 
-* 🔍 Search available buses by source and destination
-* 🪑 Seat selection and booking
-* 👤 User registration and login system
-* 🎫 Ticket generation with booking details
-* 💳 Fare calculation and payment simulation
-* 📅 Journey date management
-* ❌ Ticket cancellation feature
-* 🛠 Admin panel for managing buses and schedules
-* 📊 Booking history and customer details
-* 💾 Database connectivity using MySQL
+* 🔍 View available buses
+* 🎫 Book bus tickets
+* 👤 Passenger details management
+* 🪑 Seat reservation system
+* ❌ Ticket cancellation
+* 💰 Fare calculation
+* 📄 Ticket display and booking summary
+* 🛠 Admin operations for adding buses
+* 💾 File handling for data storage
 
 ---
 
 ## 🏗️ Tech Stack
 
-### Frontend
+### Programming Language
 
-* Java Swing / JavaFX
+* C
 
-### Backend
+### Concepts Used
 
-* Java
+* Structures
+* Functions
+* Arrays
+* File Handling
+* Conditional Statements
+* Loops
 
-### Database
+### Tools
 
-* MySQL
-
-### Tools Used
-
-* NetBeans / Eclipse / IntelliJ IDEA
-* JDBC Driver
+* Turbo C / GCC Compiler / VS Code
 
 ---
 
@@ -44,65 +43,64 @@
 
 ### 1. User Module
 
-* User Registration
-* User Login
-* Search Bus
-* Book Ticket
-* View Booking History
+* View buses
+* Book tickets
+* Cancel booking
+* View ticket details
 
 ### 2. Admin Module
 
-* Add Bus Details
-* Update Bus Timings
-* Manage Routes
-* View Bookings
+* Add new buses
+* Manage routes
+* Check seat availability
 
 ### 3. Ticket Module
 
-* Seat Allocation
-* Ticket Generation
-* Cancellation Process
+* Generate booking details
+* Calculate total fare
+* Store booking records
 
 ---
 
 ## 🖥️ System Architecture
 
-```text
-+-------------------+
-|   User Interface  |
-+-------------------+
-          |
-          v
-+-------------------+
-|   Java Backend    |
-| (Business Logic)  |
-+-------------------+
-          |
-          v
-+-------------------+
-|     MySQL DB      |
-+-------------------+
+```text id="gdxp0s"
++----------------------+
+|   User Interface     |
+|   (Console Output)   |
++----------------------+
+           |
+           v
++----------------------+
+|     C Program        |
+|  (Booking Logic)     |
++----------------------+
+           |
+           v
++----------------------+
+|   File Storage/Data  |
++----------------------+
 ```
 
 ---
 
 ## 📸 Screenshots
 
-### Login Page
+### Main Menu
 
-* User authentication screen
+* Displays booking options
 
-### Bus Search Page
+### Bus List
 
-* Search buses based on location and date
+* Shows available buses and routes
 
-### Seat Booking Page
+### Booking Page
 
-* Select seats and confirm booking
+* Enter passenger and seat details
 
 ### Ticket Page
 
-* Displays booking confirmation and ticket details
+* Displays booking confirmation
 
 ---
 
@@ -110,103 +108,90 @@
 
 ### 1️⃣ Clone the Repository
 
-```bash
+```bash id="q7es5i"
 git clone https://github.com/your-username/Easy-Trip-Bus-Ticket-Booking-System.git
 ```
 
 ### 2️⃣ Open Project
 
-* Open the project in NetBeans / Eclipse / IntelliJ
+* Open the project folder in VS Code or any C IDE
 
-### 3️⃣ Setup Database
+### 3️⃣ Compile the Program
 
-Create a MySQL database:
+Using GCC:
 
-```sql
-CREATE DATABASE easytrip;
+```bash id="sfbgd2"
+gcc main.c -o easytrip
 ```
 
-Import the SQL file:
+### 4️⃣ Run the Program
 
-```sql
-easytrip.sql
+```bash id="6dxwbg"
+./easytrip
 ```
-
-### 4️⃣ Configure JDBC
-
-Update database credentials inside:
-
-```java
-DBConnection.java
-```
-
-Example:
-
-```java
-String url = "jdbc:mysql://localhost:3306/easytrip";
-String username = "root";
-String password = "your_password";
-```
-
-### 5️⃣ Run the Project
-
-* Run the `Main.java` file
 
 ---
 
-## 📊 Database Tables
+## 📊 Functionalities
 
-* Users
-* Buses
-* Routes
-* Bookings
-* Payments
-* Seats
+* Bus seat allocation
+* Passenger record storage
+* Booking confirmation
+* Ticket cancellation
+* Fare management
+
+---
+
+## 📁 File Structure
+
+```text id="98ud9n"
+Easy-Trip/
+│
+├── main.c
+├── booking.c
+├── bus.c
+├── ticket.c
+├── data.txt
+└── README.md
+```
 
 ---
 
 ## 🔐 Future Enhancements
 
-* Online payment gateway integration
-* QR Code based tickets
-* Live bus tracking
-* Mobile application support
-* AI-based seat recommendation
-* Email/SMS notifications
+* GUI version using C graphics
+* Database integration
+* Online payment support
+* User login authentication
+* QR-based digital ticket
 
 ---
 
 ## 🎯 Project Objective
 
-The main objective of this project is to simplify the bus ticket booking process digitally and reduce manual reservation work by providing an efficient and automated booking system.
+The main objective of this project is to automate the traditional bus reservation process using the C programming language and provide a simple digital ticket booking solution.
 
----
-
-## 👨‍💻 Team Members
-
-* Abar D
-* Akshaya
-* Sanjay
-* FUTURE FORGE Team
 
 ---
 
 ## 📜 License
 
-This project is developed for educational and learning purposes.
+This project is developed for educational purposes.
 
 ---
 
 ## 🤝 Contribution
 
-Contributions, suggestions, and improvements are welcome.
+Contributions and suggestions are welcome.
 
 ---
 
-## ⭐ Support
+✍️ Author
 
-If you like this project, give it a ⭐ on GitHub.
+Abarna D,
+B.Tech (Artificial Intelligence and Data Science)
+Passionate about Software Development, AI Projects, and Problem Solving.
 
----
-
-GitHub README files usually include project overview, features, installation steps, architecture, and usage instructions so that recruiters or developers can quickly understand the project.
+Connect
+GitHub: https://github.com/Abarna866
+Email: abarnad862006@gmail.com
